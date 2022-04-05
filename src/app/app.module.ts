@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactComponent } from './contact/contact.component';
+import { JobListComponent } from './job-list/job-list.component';
+import { JobComponent } from './job/job.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactListComponent,
-    ContactComponent
+    ContactComponent,
+    JobListComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,
