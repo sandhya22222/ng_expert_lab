@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
     // alert(this.details)
     this.configUpdated.emit({
       courseName:'MEAN',
-      started_date: 15/3/2022
+      started_date: '15/3/2022'
     })
   }
 

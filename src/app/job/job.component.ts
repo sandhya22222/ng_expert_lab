@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-job',
@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./job.component.css']
 })
 export class JobComponent implements OnInit {
+@Input() labels:any;
+@Input() details:any;
+@Input() roles:any;
 
+@Output() jobRoles =new EventEmitter();
   constructor() { }
 
   ngOnInit(): void {
